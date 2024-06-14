@@ -22,7 +22,6 @@ Of course, we must find the truth of these contents and transfer them to our col
 
 ```swift 
     var pictures = [String]()
-    ```
     
 ```swift
         for item in items {
@@ -31,7 +30,6 @@ Of course, we must find the truth of these contents and transfer them to our col
                 pictures.append(item)
             }
         }
-        ```
 
 ## User Interface Design 
 
@@ -49,7 +47,7 @@ class ViewController: UIViewController to:  class ViewController: UITableViewCon
         return cell
     }
     ```
-    ## Result 
+## Result 
     
-    ![Alt text](UserInterface_Design.png)
+![Alt text](UserInterface_Design.png)
 
