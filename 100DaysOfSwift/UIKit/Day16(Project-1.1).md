@@ -50,5 +50,5 @@ class ViewController: UIViewController to:  class ViewController: UITableViewCon
 ```
 ## Result 
     
-![Alt text](<UserInterface_Design.png>)
+![Alt text](UserInterface_Design.png)
 
