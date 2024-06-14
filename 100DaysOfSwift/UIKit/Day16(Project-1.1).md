@@ -50,7 +50,6 @@ class ViewController: UIViewController to:  class ViewController: UITableViewCon
 ```
 ## Result 
 
-![UserInterface_Design](https://github.com/Fred052/100DaysOfSwift/assets/125974539/5f4c4853-3a2f-45ea-9eff-d5abda6b2a10){:height="170px" width="532px"}
 
 
 
