@@ -49,7 +49,7 @@ class ViewController: UIViewController to:  class ViewController: UITableViewCon
     }
 ```
 ## Result 
-![UserInterface_Design](https://github.com/Fred052/100DaysOfSwift/assets/125974539/4dc27037-0cc0-4bef-8d9f-9f715ed099c4){width=355}
+![UserInterface_Design](https://github.com/Fred052/100DaysOfSwift/assets/125974539/4dc27037-0cc0-4bef-8d9f-9f715ed099c4):{width=355}
 
 
 
