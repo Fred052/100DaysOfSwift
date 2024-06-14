@@ -17,12 +17,12 @@ let fm = FileManager.default
 let path = Bundle.main.resourcePath!
 let items = try! fm.contentsOfDirectory(atPath: path)
 ```
-
 Of course, we must find the truth of these contents and transfer them to our collection list.
 
 ```swift 
     var pictures = [String]()
-    
+```
+
 ```swift
         for item in items {
             if item.hasPrefix("nssl") {
@@ -30,6 +30,7 @@ Of course, we must find the truth of these contents and transfer them to our col
                 pictures.append(item)
             }
         }
+```
 
 ## User Interface Design 
 
@@ -46,8 +47,8 @@ class ViewController: UIViewController to:  class ViewController: UITableViewCon
         cell.textLabel?.text = pictures[indexPath.row]
         return cell
     }
-    ```
+```
 ## Result 
     
-![Alt text](UserInterface_Design.png)
+![Alt text](<UserInterface_Design.png>)
 
