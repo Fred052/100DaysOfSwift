@@ -90,7 +90,9 @@ I sent the image names to the Cocoa touch class I just created
 
 
 
-/Users/ferid.suleymanzade05icloud.com/Desktop/Simulator Screenshot - iPhone 15 Pro - 2024-06-15 at 14.52.17.png
+![Simulator Screenshot](https://github.com/Fred052/100DaysOfSwift/raw/main/images/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202024-06-15%20at%2014.52.17.png)
 
 
-/Users/ferid.suleymanzade05icloud.com/Desktop/Simulator Screenshot - iPhone 15 Pro - 2024-06-15 at 14.52.19.png
+
+![Simulator Screenshot](https://github.com/Fred052/100DaysOfSwift/raw/main/images/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202024-06-15%20at%2014.52.19.png)
+
