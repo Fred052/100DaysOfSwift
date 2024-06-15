@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F2608232C1DB69E00E73AD5 /* Day17(Project-1.2).md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Day17(Project-1.2).md"; sourceTree = "<group>"; };
 		7F90BF6C2C1B3E8C002E2F13 /* 100DaysOfSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 100DaysOfSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F90BF6F2C1B3E8C002E2F13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F90BF712C1B3E8C002E2F13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				7F90BF852C1B3FAA002E2F13 /* Day16(Project-1.1).md */,
+				7F2608232C1DB69E00E73AD5 /* Day17(Project-1.2).md */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
