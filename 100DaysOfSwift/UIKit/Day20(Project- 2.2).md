@@ -26,3 +26,40 @@ title = countries[correctAnswer].uppercased()
 
 ## From outlets to actions: creating an IBAction
 
+What we're doing here is to show whether the correct answer is pressed using a single function and button tags.
+
+```swift
+ @IBAction func buttonTapped(_ sender: UIButton) {
+        
+        var title: String
+        
+        if sender.tag == correctAnswer {
+            title = "Correct"
+            score += 1
+        }else {
+            title = "Wrong"
+            score -= 1
+        }
+     }
+```
+
+Here, we show a warning to the user based on the response given.
+
+```swift
+ let ac = UIAlertController(title: title , message: "Your score is \(score)", preferredStyle: .alert)
+        
+        ac.addAction(UIAlertAction(title: "Continue", style: .default, handler: askQuestion))
+        
+        present(ac, animated: true  )
+```
+
+Xcode gives an error before this edit for "handle" line above.
+Because here it is requested to accept the UIAlertAction parameter. We add it and cast nil as a constant.
+So we don't have to constantly enter nil when we don't need to enter a value when using the function
+
+```swift
+ func askQuestion(action: UIAlertAction! = nil)
+```
+
+
+
